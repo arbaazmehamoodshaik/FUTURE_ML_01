@@ -62,9 +62,13 @@ Created time-based features such as:
 
 These features help capture trends and seasonality.
 
-### 3️⃣ Model Building
+### 3️⃣ ️⃣ Model Building
 
-Used **Random Forest Regressor** to predict future sales.
+Implemented and compared:
+- Linear Regression (baseline model)
+- Random Forest Regressor (final selected model)
+
+Random Forest provided improved performance in capturing sales patterns.
 
 ### 4️⃣ Model Evaluation
 
