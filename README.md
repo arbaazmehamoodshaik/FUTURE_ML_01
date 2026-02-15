@@ -72,10 +72,14 @@ Random Forest provided improved performance in capturing sales patterns.
 
 ### 4️⃣ Model Evaluation
 
-Model performance was evaluated using:
+Model performance was evaluated using the following metrics:
 
-- Mean Absolute Error (MAE)  
-- Mean Absolute Percentage Error (MAPE)  
+- Mean Absolute Error (MAE) – measures the average absolute difference between actual and predicted sales  
+- Root Mean Squared Error (RMSE) – penalizes larger errors more heavily and indicates overall model accuracy  
+- Symmetric Mean Absolute Percentage Error (SMAPE) – provides percentage-based accuracy suitable for time-series forecasting  
+
+These metrics were used to compare Linear Regression and Random Forest models. Random Forest showed lower error values and better captured sales patterns, making it the preferred model for forecasting.
+
 
 ---
 ### 📁 Project Structure
@@ -110,9 +114,74 @@ This forecasting system can help businesses:
 By using predictive insights, businesses can reduce losses and improve operational efficiency.
 
 ---
+### 💼 Business Value
+
+This model helps businesses:
+
+• Optimize inventory levels  
+• Reduce stock shortages  
+• Improve revenue forecasting  
+• Support data-driven decision making  
+
+### ✨ Key Features
+
+• Time-series feature engineering  
+• Lag feature creation  
+• Linear Regression baseline model  
+• Random Forest advanced model  
+• Model comparison using SMAPE, MAE, RMSE  
+• 30-day future sales forecasting  
+• Business-friendly visualization  
+
+---
 
 ## 🔮 Future Improvements
 
 - Implement advanced time-series models (Prophet / SARIMA)  
 - Add holiday and promotional features  
-- Deploy as an interactive dashboard  
+- Deploy as an interactive dashboard
+--- 
+
+### ▶️ How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/yourusername/FUTURE_ML_01.git
+
+2. Navigate to project folder:
+
+cd FUTURE_ML_01
+
+3. Install required libraries:
+
+pip install pandas numpy matplotlib scikit-learn jupyter
+
+4. Run Jupyter Notebook:
+
+jupyter notebook
+
+5. Open:
+
+Sales_Forecasting_Project.ipynb
+
+### 📈 Forecast Visualization
+
+![Sales Forecast](forecast.png)
+
+### 📊 Model Performance Comparison
+
+| Model              | MAE   | RMSE  | SMAPE |
+|--------------------|-------|-------|-------|
+| Linear Regression  | 1765  | 2396  | 42%   |
+| Random Forest      | 1210  | 1820  | 21%   |
+
+Random Forest provided better accuracy and was selected as the final model.
+
+---
+
+### 👤 Author
+
+Arbaaz Mehamood Shaik
+
+GitHub: https://github.com/arbaazmehamoodshaik  
+LinkedIn: https://www.linkedin.com/in/arbaaz-mehamood-shaik-bb95b1385?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
