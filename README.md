@@ -78,6 +78,13 @@ Model performance was evaluated using:
 - Mean Absolute Percentage Error (MAPE)  
 
 ---
+### 📁 Project Structure
+
+├── Sales_Forecasting_Project.ipynb   # Main notebook
+├── Sample - Superstore.csv           # Dataset
+├── README.md                         # Project documentation
+├── LICENSE
+└── .gitignore
 
 ## 📈 Forecast Results
 
