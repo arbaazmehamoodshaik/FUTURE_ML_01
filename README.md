@@ -80,11 +80,11 @@ Model performance was evaluated using:
 ---
 ### 📁 Project Structure
 
-├── Sales_Forecasting_Project.ipynb   # Main notebook
-├── Sample - Superstore.csv           # Dataset
-├── README.md                         # Project documentation
-├── LICENSE
-└── .gitignore
+- Sales_Forecasting_Project.ipynb   # Main notebook
+- Sample - Superstore.csv           # Dataset
+- README.md                         # Project documentation
+- LICENSE
+- .gitignore
 
 ## 📈 Forecast Results
 
