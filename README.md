@@ -183,5 +183,5 @@ Random Forest provided better accuracy and was selected as the final model.
 
 Arbaaz Mehamood Shaik
 
-GitHub: https://github.com/arbaazmehamoodshaik  
+GitHub: git clone https://github.com/arbaazmehamoodshaik/FUTURE_ML_01.git
 LinkedIn: https://www.linkedin.com/in/arbaaz-mehamood-shaik-bb95b1385?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
